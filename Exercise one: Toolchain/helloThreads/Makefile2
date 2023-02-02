@@ -4,17 +4,20 @@
 #Equivalent(?) to a project file in VStudio -- only better!
 #See http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/ for info.
 
-
+OBJFILES= helloThreads.o
 CC=g++
 CFLAGS= -std=c++11 -pthread
 
 #This rule says that each .o file depends on a .cpp file of the same name
 %.o: %.cpp
-	$(CC) -c -o $@ $< $(CFLAGS)
+	$(CC) -c -o $@ $< $(CFLAGS) $(DEBUGFLAGS)
 
-ALL: helloThreads.o
-	$(CC) -o helloThreads helloThreads.o $(CFLAGS)
+ALL: $(OBJFILES)
+	$(CC) -o helloThreads $(OBJFILES) $(CFLAGS) $(DEBUGFLAGS)
 
+
+DEBUG: DEBUGFLAGS = -g -00
+DEBUG: ALL
 
 #this is customary and just deletes all .o files
 CLEAN:

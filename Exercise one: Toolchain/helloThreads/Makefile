@@ -8,9 +8,12 @@
 CC=g++
 CFLAGS= -std=c++11 -pthread
 
-SIMPLE: helloThreads.cpp
-	g++ -std=c++11 -pthread helloThreads.cpp
+SIMPLE:helloThreads.cpp
+	$(CC)  $(CFLAGS) helloThreads.cpp
 
 
 CLEAN:
-	rm *.o
+	rm*.o
+
+INSTALL:
+	cp a.out /home/bin/a.out
