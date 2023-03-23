@@ -10,7 +10,7 @@ HEADERS = Semaphore.h
 OUTPUTS = main.out
 
 CC=g++
-CFLAGS= -std=c++11 -pthread
+CFLAGS= -std=c++11 -pthread -Wall
 LFLAGS= 
 
 #SIMPLE:
