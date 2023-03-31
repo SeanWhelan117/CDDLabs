@@ -1,0 +1,19 @@
+var NAVTREEINDEX0 =
+{
+"_safe_buffer_8h_source.html":[1,0,0],
+"_semaphore_8h_source.html":[1,0,1],
+"annotated.html":[0,0],
+"class_safe_buffer.html":[0,0,0],
+"class_safe_buffer.html#a946221808987664fe4f481ad54262d2c":[0,0,0,0],
+"class_safe_buffer.html#abcc6bddc8f887a743d24361132264c17":[0,0,0,2],
+"class_safe_buffer.html#afdba533e3a5ce1d4e75be05bf6410c96":[0,0,0,1],
+"class_semaphore.html":[0,0,1],
+"class_semaphore.html#a0d9290d316636875ca85d1d78950a817":[0,0,1,0],
+"class_semaphore.html#a72aabebf026e3a8b1f3e4d0fa8ee1eda":[0,0,1,2],
+"class_semaphore.html#a7f700173ae86ae623684109066e07656":[0,0,1,3],
+"class_semaphore.html#a86f92f738b4486439b296d8e235895f2":[0,0,1,1],
+"classes.html":[0,1],
+"files.html":[1,0],
+"index.html":[],
+"pages.html":[]
+};
